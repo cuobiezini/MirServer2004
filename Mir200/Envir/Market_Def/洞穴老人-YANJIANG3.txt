@@ -1,0 +1,75 @@
+;WWW.hmeee.com
+
+;风云传说（v1.9）商店脚本文件
+;2004/12/23	Jacky	调整更新
+
+[@main]
+
+#IF
+ CHECKGAMEGOLD > 499
+#SAY
+要想进入500元宝路费，而且必须先把这里的怪物清\
+理干净，我可不想浪费时间。\ \
+ <进入/@lian>\ \
+ <关闭/@exit>
+#ACT
+break
+
+
+#ELSESAY
+没有500元宝你来干什么...\
+这里可不是随便来的...\
+快回去吧...\ \
+ <退出/@exit>
+
+
+[@lian]
+#IF
+CheckMonMap YANJIANG3 1
+#SAY
+必须先把这里的怪物清理干净，我可不想浪费时间。\ \
+ <关闭/@exit>
+#ELSEACT
+goto @huilujinlian
+
+
+
+[@huilujinlian]
+#IF
+checkjob warrior
+
+#ACT
+GAMEGOLD - 500
+give 回城卷 1
+mapmove  YANJIANG4 11 16
+
+break
+
+
+
+#IF
+ checkjob wizard
+
+#ACT
+GAMEGOLD - 500
+give 回城卷 1
+mapmove  YANJIANG4 11 16
+break
+
+
+#IF
+
+checkjob taoist
+
+#ACT
+ 
+give 回城卷 1
+GAMEGOLD - 500
+mapmove  YANJIANG4 11 16
+break
+
+
+#ELSEACT
+mapmove 3 333 333
+SENDMSG 2 %s因使用非法程序发送指令试图作弊被斩首!风云网络已经采用最新触发系统防止玩家作弊，任何作弊的玩家将受到惩罚！
+exeaction KILL 0

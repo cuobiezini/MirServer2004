@@ -1,0 +1,41 @@
+[@玩家登陆]
+{
+#IF
+ISNEWHUMAN
+#ACT
+ADDNAMELIST ..\QuestDiary\次元网单游戏店假人脚本\变量文件\真人名单.txt
+}
+[@假人会员]
+{
+
+}
+
+[@中途复活]
+{
+#IF
+CHECKUNDERWAR 沙巴克
+#ACT
+SENDMSG 0  <$USERNAME>死亡复活了.
+Relive
+map 0159
+
+#if
+#act
+Relive
+mapmove 3 330 330
+GETRANDOMLINETEXT ..\QuestDiary\次元网单游戏店假人脚本\变量文件\时间间隔.txt <$STR(S98)>
+DELAYGOTO <$STR(S98)> @死后复活
+BREAK
+
+[@死后复活]
+#IF
+#ACT
+GETRANDOMLINETEXT ..\QuestDiary\次元网单游戏店假人脚本\变量文件\所有地图.txt <$STR(S10)>
+MAP <$STR(S10)>
+GETRANDOMLINETEXT ..\QuestDiary\次元网单游戏店假人脚本\变量文件\回城时间.txt <$STR(S20)>
+DELAYCALL <$STR(S20)> @假人回城
+CHANGEPKPOINT - 1000
+BREAK
+
+}
+
