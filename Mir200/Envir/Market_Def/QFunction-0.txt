@@ -159,16 +159,16 @@ SENDMSG 7 提示：金币已经增加1000W在包裹里面.
   
 
 
-;;5元宝
-[@StdModeFunc5]
+;;5元风云券
+[@StdModeFunc63]
 #IF 
 #ACT
 GAMEGOLD + 5
 SENDMSG 7 【提示您】:<$USERNAME>增加后的元宝数量为：<$GAMEGOLD>个
 
 
-;;1元宝
-[@StdModeFunc11]
+;;1元风云券
+[@StdModeFunc61]
 #IF 
 #ACT
 GAMEGOLD + 1
@@ -176,8 +176,8 @@ SENDMSG 7 【提示您】:<$USERNAME>在加后的元宝数量为：<$GAMEGOLD>个
 
 
 
-;;2元宝
-[@StdModeFunc22]
+;;2元风云券
+[@StdModeFunc62]
 #IF 
 #ACT
 GAMEGOLD + 2
@@ -185,91 +185,40 @@ SENDMSG 7 【提示您】:<$USERNAME>在加后的元宝数量为：<$GAMEGOLD>个
 
 
 
-;;10元宝
-[@StdModeFunc10]
+;;10元风云券
+[@StdModeFunc64]
 #IF 
 #ACT
 GAMEGOLD + 10
 SENDMSG 7 【提示您】:<$USERNAME>在加后的元宝数量为：<$GAMEGOLD>个
 
-;;50元宝
-[@StdModeFunc50]
+;;50元风云券
+[@StdModeFunc65]
 #IF 
 #ACT
 GAMEGOLD + 50
 SENDMSG 7 【提示您】:<$USERNAME>增加后的元宝数量为：<$GAMEGOLD>个
 
-
-
-;;1000元宝
-[@StdModeFunc130]
-#IF 
-#ACT
-GAMEGOLD + 1000
-SENDMSG 7 【提示您】:<$USERNAME>增加后的元宝数量为：<$GAMEGOLD>个
-
-
-
-;;2000元宝
-[@StdModeFunc131]
-#IF 
-#ACT
-GAMEGOLD + 2000
-SENDMSG 7 【提示您】:<$USERNAME>增加后的元宝数量为：<$GAMEGOLD>个
-
-
-;;2400元宝
-[@StdModeFunc132]
-#IF 
-#ACT
-GAMEGOLD + 2400
-SENDMSG 7 【提示您】:<$USERNAME>增加后的元宝数量为：<$GAMEGOLD>个
-
-
-
-;;400元宝
-[@StdModeFunc133]
-#IF 
-#ACT
-GAMEGOLD + 400
-SENDMSG 7 【提示您】:<$USERNAME>增加后的元宝数量为：<$GAMEGOLD>个
-
-
-
-;;100元宝
-[@StdModeFunc134]
+;;100元风云券
+[@StdModeFunc66]
 #IF 
 #ACT
 GAMEGOLD + 100
 SENDMSG 7 【提示您】:<$USERNAME>增加后的元宝数量为：<$GAMEGOLD>个
 
-
-
-
-;;200元宝
-[@StdModeFunc135]
-#IF 
-#ACT
-GAMEGOLD + 200
-SENDMSG 7 【提示您】:<$USERNAME>增加后的元宝数量为：<$GAMEGOLD>个
-
-
-
-
-
-;;500元宝
-[@StdModeFunc136]
+;;500元风云券
+[@StdModeFunc67]
 #IF 
 #ACT
 GAMEGOLD + 500
 SENDMSG 7 【提示您】:<$USERNAME>增加后的元宝数量为：<$GAMEGOLD>个
 
-
-
-
-
-
-
+;;100元风云券
+[@StdModeFunc68]
+#IF 
+#ACT
+GAMEGOLD + 1000
+SENDMSG 7 【提示您】:<$USERNAME>增加后的元宝数量为：<$GAMEGOLD>个
 
 
 [@StdModeFunc57]        
