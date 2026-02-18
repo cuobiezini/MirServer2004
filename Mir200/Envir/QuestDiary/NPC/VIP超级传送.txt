@@ -6,7 +6,7 @@
 练级（<vip>传送）：<死亡山谷/@vipswsg>　<石墓洞穴/@vipsmdx>　<祖玛寺庙/@vipzmsm>　<逆魔胜地/@vipnmsdd>\
 练级（<vip>传送）：<封魔神殿/@vipfmsd>　<尸魔洞穴/@vip5mdx>　<骨魔洞穴/@vipgmdx>　<牛魔寺庙/@vipnmsm>\
 练级（<vip>传送）：<石墓七层/@vipsmqc2>　<秦皇陵墓/@vipwmjzdt2>　<未知暗殿/@vipwzad2>　<尸王殿/@vipswd2>\
-打宝（<vip>传送）：<沉没之船/@vipcmzc>　<贵族神殿/@vipnldx>　<炎龙洞窟/@vipyldk>　\
+打宝（<vip>传送）：<沉没之船/@vipcmzc>　<贵族神殿/@vipnldx>　<炎龙洞窟/@vipyldk>　<生死炼狱/@vipssly>\
 特殊（<vip>任务）：<通天塔/@vipttt>
 
 
@@ -18,7 +18,7 @@
 练级（金币限制）：<死亡山谷/@swsg>　<石墓洞穴/@smdx>　<祖玛寺庙/@zmsm>　<逆魔胜地/@nmsdd>\
 练级（金币限制）：<封魔神殿/@fmsd>　<尸魔洞穴/@5mdx>　<骨魔洞穴/@gmdx>　<牛魔寺庙/@nmsm>\
 练级（金币限制）：<石墓七层/@smqc2>　<秦皇陵墓/@wmjzdt2>　<未知暗殿/@wzad2>　<尸王殿/@swd2>\
-打宝（金币限制）：<贵族神殿/@nldx>　<沉没之船/@cmzc>　<炎龙洞窟/@yldk>\
+打宝（金币限制）：<贵族神殿/@nldx>　<沉没之船/@cmzc>　<炎龙洞窟/@yldk>  <生死炼狱/@wmssly>\
 特殊（任务专用）：<通天塔/@ttt2>
 
 
