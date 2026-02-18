@@ -35,20 +35,3 @@ SENDMSG 5 ·çÔÆ´«Ææ12ÔÂ26ÈÕÒÑ¾­È«Ãæ¸üÐÂ²¢ÐÞ¸´ËùÓÐBUG£¬ÇëµÇÂ½http://cq.grkfcs.cn/Ï
 ;#IF
 ;#ACT
 ;SENDMSG 1 8ÔÂ25ÈÕÏÂÎç1µã½«¾ÙÐÐ´óÐÍ¹ÖÎï¹¥³Ç£¬Îª»ØÀ¡Íæ¼Ò¶Ô·çÔÆµÄ´óÁ¦Ö§³Ö£¬±¾´Î»î¶¯½«±©³ö´óÁ¿»áÔ±Æ¾Ö¤¡¢¾Þ¶îÔª±¦¡¢ÉÏ¹ÅÉñÆ÷¡¢¸ß¼¶ÈÎÎñÎïÆ·£¬»¶Ó­Íæ¼ÒÓ»Ô¾ÉÏÏßÉÏ¹Ö¶á±¦£¡¹ÖÎï¹¥³ÇÆÚ¼ä½«²ÉÓÃ×îÐÂ¼¼Êõ¹Ø±Õ´©ÈË£»¹Ø±Õ°²È«Çø·Å»ðÇ½ÒÔ±ÜÃâ¹¥³ÇÆÚ¼ä¿¨µÄÎÊÌâ¡£¹¥³ÇÆÚ¼äÍæ¼ÒÇëÈ¡ÏûÍâ¹ÒµÄ´©ÈËÑ¡Ïî£¬ÒÔÃâÔì³É·´µ¯£¡ÇëÍæ¼ÒÍ¨¹ý¸÷´ó³ÇÊÐ´«ËÍÊ¯µÄ¹ÖÎï¹¥³Ç´«ËÍ½øÈë¹ÖÎï¹¥³ÇµØµã
-
-
-
-
-
-
-[@¶þÀÉÕæ¾ý]
-#IF
-#ACT
-MISSION PK1 6 18
-PARAM1 6
-PARAM2 18
-PARAM3 1
-PARAM4 5
-MOBPLACE ¶þÀÉÕæ¾ý
-SENDMSG 0 »¹ÔÚµÈÊ²Ã´°¡?¿ìÐÐ¶¯°É!(¶þÀÉÕæ¾ýÃ¿62·ÖÖÓ³öÏÖÒ»´Î)
-

@@ -74,14 +74,14 @@ BoxsFile=D:\MirServer2004\Mir200\Envir\Boxs\BoxsList.txt
 SortDir=D:\MirServer2004\Mir200\Sort\
 [Setup]
 ;ScriptPassword=1FEEA5B68AC9E2ADAA600F275CECC247C958CB728C3C212C08781B6F7405F8A5
-ItemNumber=68886
+ItemNumber=68961
 HomeMap=0
 HomeX=289
 HomeY=618
 ClientFile1 =mir.dat
 ClientFile2 =mir.2
 ClientFile3 =mir.3
-ItemNumberEx=1073742317
+ItemNumberEx=1073742318
 RedHomeMap=3
 RedHomeX=845
 RedHomeY=674
