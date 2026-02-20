@@ -3,7 +3,7 @@ CastleName=°ÔÊÓÌìÏÂ
 OwnGuild=
 ChangeDate=2026-02-15 20:49:10
 WarDate=2026-02-15 20:49:10
-IncomeToday=2026-02-18 14:32:05
+IncomeToday=2026-02-20 12:53:31
 TotalGold=10000000
 TodayIncome=56000
 [Defense]
