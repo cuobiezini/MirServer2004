@@ -3,121 +3,102 @@
 #IF
  checkpkpoint 2
 #SAY
-我不想和你这样的人打交道...\ \
+我不想和你这样的人打交道...\ \ 
  <离开/@exit>
 #ELSESAY
 人老了，眼睛也瞎了。可是请相信我这个老婆子，\
-我可是缝了一辈子的衣服。金丝龙袍我也做过！\ \
+我可是缝了一辈子的衣服。金丝龙袍我也做过！\ 
  <买/@buy> 衣服     <卖/@sell> 衣服\
- <修补/@repair> 衣服     <特殊修理/@s_repair>\ \
+ <修补/@repair> 衣服     <特殊修理/@s_repair>\ 
  <求做炎龙袍/@zuo>\ 
  <升级炎龙盔甲/@shengji>\\
  <离开/@exit>
 
 [@zuo]
-#if
- check [110] 1
- check [111] 1
- check [112] 0
- check [113] 1
- check [114] 1
- check [115] 1
- check [105] 0
-#act
- goto @hao
-#elsesay
-你是不是做过一次了的啊..~ 我没有力气再做了。。\
-你的赤血魔剑炼成功了没有..~??\
 
-[@hao]
+#IF
+ checknamelist ..\QuestDiary\数据文件\YanLongPao.txt
+#ACT
+ goto @already_done
+#ELSESAY
 噢！我的天，我没听错过，竟然还有人要做炎龙袍。\
 我的孩子，那可是需要太大的力气的，罢了，我今\
 生能再缝一次炎龙袍也死而无憾了。给我材料，我\
-老太婆免费给你做了。你要做男盔还是女盔？\ \
+老太婆免费给你做了。你要做男盔还是女盔？\ 
  <炎龙盔甲(男)/@boy>\
  <炎龙盔甲(女)/@girl>\ 
  <离开/@exit>
 
+
+[@already_done]
+你是不是做过一次了的啊..~ 我没有力气再做了。。\
+请不要再来打扰我了。\
+ <离开/@exit>
+
 [@boy]
-我需要炎龙盔甲(男)、天灵袍(男)、炎龙心脏、\
-镇龙珠、修炼石还有金条一个，请交给我。\ \
+我需要炎龙袍(男)、天灵袍(男)、炎龙心脏、\
+镇龙珠、修炼石还有金条一个，请交给我。\ 
  <给您/@give1>\
- <离开/@exit>\ \
+ <离开/@exit>\ 
 
 [@give1]
 #IF
- check [110] 1
- check [111] 1
- check [112] 0
- check [113] 1
- check [114] 1
- check [115] 1
- check [105] 0
- checkitem 炎龙袍(男)　  1
+ checkitem 炎龙袍(男)  1
  checkitem 天灵袍(男) 1
  checkitem 炎龙心脏 1
  checkitem 镇龙珠 1
  checkitem 修炼石 1
  checkitem 金条 1
- check [105] 0
 #ACT
- take 炎龙袍(男)　 1
+ take 炎龙袍(男) 1
  take 天灵袍(男) 1
  take 炎龙心脏 1
  take 镇龙珠 1
  take 修炼石 1
  take 金条 1
- give 炎龙盔甲(男)　 1
- set [105] 1
+ give 炎龙盔甲(男)  1
+ ADDNAMELIST ..\QuestDiary\数据文件\YanLongPao.txt
 #SAY
 虽然我的眼睛是盲的，但我的心是亮的。\
 我的孩子，请穿上它，它会给你力量...\
-你是一个真正的强者！！\ \
+你是一个真正的强者！！\ 
  <离开/@exit>
 #ELSESAY
 东西不齐也想缝炎龙袍？你欺负我是个瞎眼婆子吗？\ 
-快快离开！否则我就不客气了！！\ \
+快快离开！否则我就不客气了！！\ 
  <离开/@exit>
 
 [@girl]
-我需要炎龙盔甲(女)、天灵袍(女)、炎龙心脏、\
-镇龙珠、修炼石还有金条一个。请交给我。\ \
+我需要炎龙袍(女)、天灵袍(女)、炎龙心脏、\
+镇龙珠、修炼石还有金条一个。请交给我。\ 
  <给您/@give2>\
- <离开/@exit>\ \
+ <离开/@exit>\ 
 
 [@give2]
 #IF
- check [110] 1
- check [111] 1
- check [112] 0
- check [113] 1
- check [114] 1
- check [115] 1
- check [105] 0
- checkitem 炎龙袍(女)　 1
+ checkitem 炎龙袍(女) 1
  checkitem 天灵袍(女) 1
  checkitem 炎龙心脏 1
  checkitem 镇龙珠 1
  checkitem 修炼石 1
  checkitem 金条 1
- check [105] 0
 #ACT
- take 炎龙袍(女)　 1
+ take 炎龙袍(女)  1
  take 天灵袍(女) 1
  take 炎龙心脏 1
  take 镇龙珠 1
  take 修炼石 1
  take 金条 1
- give 炎龙盔甲(女)　 1
- set [105] 1
+ give 炎龙盔甲(女)  1
+ ADDNAMELIST ..\QuestDiary\数据文件\YanLongPao.txt
 #SAY
 虽然我的眼睛是盲的，但我的心是亮的。\
 我的孩子，请穿上它，它会给你力量...\
-你是一个强者！！\ \
+你是一个强者！！\ 
  <离开/@exit>
 #ELSESAY
 东西不齐也想缝炎龙袍？你欺负我是个瞎眼婆子吗？\ 
-快快离开！否则我就不客气了！！\ \
+快快离开！否则我就不客气了！！\ 
  <离开/@exit>
 
 [@shengji]
