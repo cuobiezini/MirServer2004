@@ -171,7 +171,6 @@ checkitem ½ð×© 1
 
 [@Reverse5Set_1]
 #IF 
-checkbaggage
 checkitem ½ð×© 1
 checkgold 12000
 #ACT
