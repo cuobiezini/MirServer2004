@@ -38,13 +38,6 @@
   break
 
 
-
-#IF
-#ACT
-RECALLMOB  变异法王  0 1 1200 0  -1 
-sendmsg 7 万恶召唤令，尸横遍野，血流成河！！！
-
-
 [@StdModeFunc2]
 #IF
 CHECKRENEWLEVEL > 0
@@ -724,3 +717,16 @@ SENDMSG 5 您没有加入任何行会，使用风雷召唤令无效果。
 BREAK
 
 
+
+
+
+[@StartAutoPlayGame]
+#IF
+#ACT
+StartAutoPlayGame 100 60 1
+SENDMSG 6 开始挂机，使用快捷键“CTRL+ALT+X”停止挂机。
+break
+
+[@StopAutoPlayGame]
+#ACT
+SENDMSG 6 挂机结束，使用快捷键“CTRL+ALT+X”开始挂机。
