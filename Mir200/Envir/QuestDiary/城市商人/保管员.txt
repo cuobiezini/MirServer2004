@@ -86,7 +86,7 @@ checkitem 金砖 2
 <返 回/@保管员>
 [@jzzhzbx_1]
 #IF 
-CHECKBAGGAGE
+
 checkitem 金砖 2
 checkgold 2000
 #ACT
@@ -119,7 +119,7 @@ checkitem 金盒 1
 <返 回/@保管员>
 [@zbxjhjz_1]
 #IF 
-CHECKBAGGAGE
+
 checkitem 金盒 1
 checkgold 2000
 #ACT
@@ -152,7 +152,7 @@ checkgold 1002000
 <返 回/@保管员>
 [@changeGold_1]
 #IF 
-CHECKBAGGAGE
+
 checkgold 1002000
 #ACT
 take 金币 1002000
