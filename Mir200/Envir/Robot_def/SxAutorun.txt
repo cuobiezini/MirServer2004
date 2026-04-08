@@ -9,4 +9,4 @@
 #AutoRun 	NPC 	MIN 		10 	@fangguji
 ;#AutoRun 	NPC 	MIN 		60 	@fangguji11
 
-#AutoRun NPC MIN 62 @¶þÀÉÕæ¾ý
+
