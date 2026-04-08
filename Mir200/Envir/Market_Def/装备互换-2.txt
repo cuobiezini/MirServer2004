@@ -420,11 +420,11 @@ SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》海魂战靴互换海魂道靴成功!!!
 [@n17]
 #IF
 CHECKGAMEGOLD > 2000
-checkitem 逆魔戒指(道) 1
+checkitem 逆魔戒指(道) 1
 #ACT
-take 逆魔戒指(道) 1
+take 逆魔戒指(道) 1
 GAMEGOLD - 2000
-give 逆魔戒指(法) 1
+give 逆魔戒指(法) 1
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔戒指(道)互换逆魔戒指(法)成功!!! 
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔戒指(道)互换逆魔戒指(法)成功!!! 
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔戒指(道)互换逆魔戒指(法)成功!!! 
@@ -433,11 +433,11 @@ SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔戒指(道)互换逆魔戒指(法)成功!!!
 [@n18]
 #IF
 CHECKGAMEGOLD > 200
-checkitem 逆魔手镯(道) 1
+checkitem 逆魔手镯(道) 1
 #ACT
-take 逆魔手镯(道) 1
+take 逆魔手镯(道) 1
 GAMEGOLD - 200
-give 逆魔手镯(法) 1
+give 逆魔手镯(法) 1
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔手镯(道)互换逆魔手镯(法)成功!!! 
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔手镯(道)互换逆魔手镯(法)成功!!! 
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔手镯(道)互换逆魔手镯(法)成功!!! 
@@ -450,11 +450,11 @@ MessAgeBox 你小子想骗我，这游戏还没这东西吧！！！
 [@n20]
 #IF
 CHECKGAMEGOLD > 200
-checkitem 逆魔项链(道) 1
+checkitem 逆魔项链(道) 1
 #ACT
-take 逆魔项链(道) 1
+take 逆魔项链(道) 1
 GAMEGOLD - 200
-give 逆魔项链(法) 1
+give 逆魔项链(法) 1
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔项链(道)互换逆魔项链(法)成功!!! 
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔项链(道)互换逆魔项链(法)成功!!! 
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔项链(道)互换逆魔项链(法)成功!!! 
@@ -464,11 +464,11 @@ SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔项链(道)互换逆魔项链(法)成功!!!
 [@n21]
 #IF
 CHECKGAMEGOLD > 200
-checkitem 逆魔戒指(道) 1
+checkitem 逆魔戒指(道) 1
 #ACT
-take 逆魔戒指(道) 1
+take 逆魔戒指(道) 1
 GAMEGOLD - 200
-give 逆魔戒指(战) 1
+give 逆魔戒指(战) 1
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔戒指(道)互换逆魔戒指(战)成功!!! 
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔戒指(道)互换逆魔戒指(战)成功!!! 
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔戒指(道)互换逆魔戒指(战)成功!!! 
@@ -477,11 +477,11 @@ SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔戒指(道)互换逆魔戒指(战)成功!!!
 [@n22]
 #IF
 CHECKGAMEGOLD > 2000
-checkitem 逆魔手镯(道) 1
+checkitem 逆魔手镯(道) 1
 #ACT
-take 逆魔手镯(道) 1
+take 逆魔手镯(道) 1
 GAMEGOLD - 2000
-give 逆魔手镯(战) 1
+give 逆魔手镯(战) 1
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔手镯(道)互换逆魔手镯(战)成功!!! 
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔手镯(道)互换逆魔手镯(战)成功!!! 
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔手镯(道)互换逆魔手镯(战)成功!!! 
@@ -493,11 +493,11 @@ MessAgeBox 你小子想骗我，这游戏还没这东西吧！！！
 [@n24]
 #IF
 CHECKGAMEGOLD > 200
-checkitem 逆魔项链(道) 1
+checkitem 逆魔项链(道) 1
 #ACT
-take 逆魔项链(道) 1
+take 逆魔项链(道) 1
 GAMEGOLD - 200
-give 逆魔项链(战) 1
+give 逆魔项链(战) 1
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔项链(道)互换逆魔项链(战)成功!!! 
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔项链(道)互换逆魔项链(战)成功!!! 
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔项链(道)互换逆魔项链(战)成功!!! 
@@ -521,11 +521,11 @@ SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔项链(道)互换逆魔项链(战)成功!!!
 [@n9]
 #IF
 CHECKGAMEGOLD > 1500
-checkitem 逆魔戒指(战) 1
+checkitem 逆魔戒指(战) 1
 #ACT
-take 逆魔戒指(战) 1
+take 逆魔戒指(战) 1
 GAMEGOLD - 1500
-give 逆魔戒指(法) 1
+give 逆魔戒指(法) 1
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔戒指(战)互换逆魔戒指(法)成功!!! 
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔戒指(战)互换逆魔戒指(法)成功!!! 
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔戒指(战)互换逆魔戒指(法)成功!!! 
@@ -534,11 +534,11 @@ SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔戒指(战)互换逆魔戒指(法)成功!!!
 [@n10]
 #IF
 CHECKGAMEGOLD > 100
-checkitem 逆魔手镯(战) 1
+checkitem 逆魔手镯(战) 1
 #ACT
-take 逆魔手镯(战) 1
+take 逆魔手镯(战) 1
 GAMEGOLD - 100
-give 逆魔手镯(法) 1
+give 逆魔手镯(法) 1
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔手镯(战)互换逆魔手镯(法)成功!!! 
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔手镯(战)互换逆魔手镯(法)成功!!! 
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔手镯(战)互换逆魔手镯(法)成功!!! 
@@ -551,11 +551,11 @@ MessAgeBox 你小子想骗我，这游戏还没这东西吧！！！
 [@n12]
 #IF
 CHECKGAMEGOLD > 100
-checkitem 逆魔项链(战) 1
+checkitem 逆魔项链(战) 1
 #ACT
-take 逆魔项链(战) 1
+take 逆魔项链(战) 1
 GAMEGOLD - 100
-give 逆魔项链(法) 1
+give 逆魔项链(法) 1
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔项链(战)互换逆魔项链(法)成功!!! 
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔项链(战)互换逆魔项链(法)成功!!! 
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔项链(战)互换逆魔项链(法)成功!!! 
@@ -565,11 +565,11 @@ SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔项链(战)互换逆魔项链(法)成功!!!
 [@n13]
 #IF
 CHECKGAMEGOLD > 100
-checkitem 逆魔戒指(战) 1
+checkitem 逆魔戒指(战) 1
 #ACT
-take 逆魔戒指(战) 1
+take 逆魔戒指(战) 1
 GAMEGOLD - 100
-give 逆魔戒指(道) 1
+give 逆魔戒指(道) 1
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔戒指(战)互换逆魔戒指(道)成功!!! 
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔戒指(战)互换逆魔戒指(道)成功!!! 
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔戒指(战)互换逆魔戒指(道)成功!!! 
@@ -578,11 +578,11 @@ SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔戒指(战)互换逆魔戒指(道)成功!!!
 [@n14]
 #IF
 CHECKGAMEGOLD > 100
-checkitem 逆魔手镯(战) 1
+checkitem 逆魔手镯(战) 1
 #ACT
-take 逆魔手镯(战) 1
+take 逆魔手镯(战) 1
 GAMEGOLD - 100
-give 逆魔手镯(道) 1
+give 逆魔手镯(道) 1
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔手镯(战)互换逆魔手镯(道)成功!!! 
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔手镯(战)互换逆魔手镯(道)成功!!! 
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔手镯(战)互换逆魔手镯(道)成功!!! 
@@ -594,11 +594,11 @@ MessAgeBox 你小子想骗我，这游戏还没这东西吧！！！
 [@n16]
 #IF
 CHECKGAMEGOLD > 100
-checkitem 逆魔项链(战) 1
+checkitem 逆魔项链(战) 1
 #ACT
-take 逆魔项链(战) 1
+take 逆魔项链(战) 1
 GAMEGOLD - 100
-give 逆魔项链(道) 1
+give 逆魔项链(道) 1
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔项链(战)互换逆魔项链(道)成功!!! 
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔项链(战)互换逆魔项链(道)成功!!! 
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔项链(战)互换逆魔项链(道)成功!!! 
@@ -620,11 +620,11 @@ SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔项链(战)互换逆魔项链(道)成功!!!
 [@n1]
 #IF
 CHECKGAMEGOLD > 100
-checkitem 逆魔戒指(法) 1
+checkitem 逆魔戒指(法) 1
 #ACT
-take 逆魔戒指(法) 1
+take 逆魔戒指(法) 1
 GAMEGOLD - 100
-give 逆魔戒指(战) 1
+give 逆魔戒指(战) 1
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔戒指(法)互换逆魔戒指(战)成功!!! 
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔戒指(法)互换逆魔戒指(战)成功!!! 
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔戒指(法)互换逆魔戒指(战)成功!!! 
@@ -633,11 +633,11 @@ SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔戒指(法)互换逆魔戒指(战)成功!!!
 [@n2]
 #IF
 CHECKGAMEGOLD > 2000
-checkitem 逆魔手镯(法) 1
+checkitem 逆魔手镯(法) 1
 #ACT
-take 逆魔手镯(法) 1
+take 逆魔手镯(法) 1
 GAMEGOLD - 2000
-give 逆魔手镯(战) 1
+give 逆魔手镯(战) 1
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔手镯(法)互换逆魔手镯(战)成功!!! 
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔手镯(法)互换逆魔手镯(战)成功!!! 
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔手镯(法)互换逆魔手镯(战)成功!!! 
@@ -650,11 +650,11 @@ MessAgeBox 你小子想骗我，这游戏还没这东西吧！！！
 [@n4]
 #IF
 CHECKGAMEGOLD > 100
-checkitem 逆魔项链(法) 1
+checkitem 逆魔项链(法) 1
 #ACT
-take 逆魔项链(法) 1
+take 逆魔项链(法) 1
 GAMEGOLD - 100
-give 逆魔项链(战) 1
+give 逆魔项链(战) 1
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔项链(法)互换逆魔项链(战)成功!!! 
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔项链(法)互换逆魔项链(战)成功!!! 
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔项链(法)互换逆魔项链(战)成功!!! 
@@ -664,11 +664,11 @@ SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔项链(法)互换逆魔项链(战)成功!!!
 [@n5]
 #IF
 CHECKGAMEGOLD > 100
-checkitem 逆魔戒指(法) 1
+checkitem 逆魔戒指(法) 1
 #ACT
-take 逆魔戒指(法) 1
+take 逆魔戒指(法) 1
 GAMEGOLD - 100
-give 逆魔戒指(道) 1
+give 逆魔戒指(道) 1
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔戒指(法)互换逆魔戒指(道)成功!!! 
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔戒指(法)互换逆魔戒指(道)成功!!! 
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔戒指(法)互换逆魔戒指(道)成功!!! 
@@ -677,11 +677,11 @@ SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔戒指(法)互换逆魔戒指(道)成功!!!
 [@n6]
 #IF
 CHECKGAMEGOLD > 100
-checkitem 逆魔手镯(法) 1
+checkitem 逆魔手镯(法) 1
 #ACT
-take 逆魔手镯(法) 1
+take 逆魔手镯(法) 1
 GAMEGOLD - 100
-give 逆魔手镯(道) 1
+give 逆魔手镯(道) 1
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔手镯(法)互换逆魔手镯(道)成功!!! 
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔手镯(法)互换逆魔手镯(道)成功!!! 
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔手镯(法)互换逆魔手镯(道)成功!!! 
@@ -693,11 +693,11 @@ MessAgeBox 你小子想骗我，这游戏还没这东西吧！！！
 [@n8]
 #IF
 CHECKGAMEGOLD > 100
-checkitem 逆魔项链(法) 1
+checkitem 逆魔项链(法) 1
 #ACT
-take 逆魔项链(法) 1
+take 逆魔项链(法) 1
 GAMEGOLD - 100
-give 逆魔项链(道) 1
+give 逆魔项链(道) 1
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔项链(法)互换逆魔项链(道)成功!!! 
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔项链(法)互换逆魔项链(道)成功!!! 
 SendCenterMsg 254 0 恭喜玩家《<$USERNAME>》逆魔项链(法)互换逆魔项链(道)成功!!! 
